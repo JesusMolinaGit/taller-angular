@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jesmol88/taller-angular/issues"
   },
-  "homepage": "https://github.com/jesmol88/taller-angular#readme"
+  "homepage": "https://github.com/jesmol88/taller-angular#readme",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
 }
