@@ -11,21 +11,19 @@
 </head>
 
 <body ng-app="app">
-    <hello-saturn></hello-saturn><!--Hace referencia al componente que hemos creado-->
+
+    <hello-world></hello-world>
+    <planets-component></planets-component>
+    
     
     <!-- angular -->
     <script src="js/vendor/angular.min.js"></script>
+    
+    <!-- our app -->
+    <script src="app/app.js"></script>
 
-    <script>
-        angular.module('app',[]);
-
-        var helloWorldConfig = {
-            template: '<div><h1>Hola Mundo</h1><p>Esto es una prueba de componentes</p></div>'
-        }
-        angular.module('app').component('helloWorld', helloWorldConfig);
-        angular.module('app').component('helloSaturn', {
-            template: '<div><hello-world></hello-world></div>'
-        });
-    </script>
+    <script src="app/components/hello-world.js"></script>
+    <script src="app/components/planets-component.js"></script>
+    
 </body>
 </html>
