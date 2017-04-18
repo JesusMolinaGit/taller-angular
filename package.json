@@ -1,0 +1,19 @@
+{
+  "name": "taller-angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesmol88/taller-angular.git"
+  },
+  "author": "Jesus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesmol88/taller-angular/issues"
+  },
+  "homepage": "https://github.com/jesmol88/taller-angular#readme"
+}
