@@ -23,7 +23,7 @@
         {id: 7, name: 'Neptune'}
       ];
 
-    },
+    }
 
     vm.removePlanet = function(idPlanet){
 
