@@ -1,5 +1,5 @@
 angular.module('app').component('newComponent',{
-    templateUrl: 'app/components/newComponent-template.html',
+    templateUrl: 'app/components/newComponentTemplate.html',
     controller: newComponent,
     controllerAs:'newComponent',
     bindings:{
