@@ -5,6 +5,7 @@
     controller: planets
   });
 
+
   function planets() {
     var vm = this;
     
@@ -21,9 +22,20 @@
         {id: 6, name: 'Uranus'},
         {id: 7, name: 'Neptune'}
       ];
-    }
 
-    
+    }
+    vm.removePlanet = function(idPlanet){
+          var len = vm.solarSystem.length;
+          var i = 0;
+          for(;i<len;i++){
+              if(idPlanet === vm.solarSystem[i].id){
+                  vm.solarSystem.splice(i,1);
+                  break;
+              }
+          }
+      };
+
+
   }
 
 })(angular);
