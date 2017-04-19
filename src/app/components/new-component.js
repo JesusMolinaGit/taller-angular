@@ -13,7 +13,6 @@ function newComponent(){
 
     vm.$onInit = function(){
         vm.miVariable = vm.foo;
-        console.log(vm.miVariable);
     }
 
 }
