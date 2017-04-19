@@ -23,8 +23,10 @@
         {id: 7, name: 'Neptune'}
       ];
 
-    }
+    };
+    
     vm.removePlanet = function(idPlanet){
+
           var len = vm.solarSystem.length;
           var i = 0;
           for(;i<len;i++){
@@ -34,8 +36,6 @@
               }
           }
       };
-
-
   }
 
 })(angular);
